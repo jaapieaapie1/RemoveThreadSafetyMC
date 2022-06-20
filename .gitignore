@@ -1,0 +1,6 @@
+paperforktemplate-API
+paperforktemplate-Server
+
+build/
+.gradle/
+run/

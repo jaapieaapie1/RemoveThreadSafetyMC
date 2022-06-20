@@ -38,7 +38,7 @@ subprojects {
 }
 
 paperweight {
-    serverProject.set(project(":paperforktemplate-Server"))
+    serverProject.set(project(":removethreadsafetymc-Server"))
 
     usePaperUpstream(providers.gradleProperty("paperRef")) {
         withPaperPatcher {
@@ -48,8 +48,8 @@ paperweight {
             apiPatchDir.set(layout.projectDirectory.dir("patches/api"))
             serverPatchDir.set(layout.projectDirectory.dir("patches/server"))
 
-            apiOutputDir.set(layout.projectDirectory.dir("paperforktemplate-API"))
-            serverOutputDir.set(layout.projectDirectory.dir("paperforktemplate-Server"))
+            apiOutputDir.set(layout.projectDirectory.dir("removethreadsafetymc-API"))
+            serverOutputDir.set(layout.projectDirectory.dir("removethreadsafetymc-Server"))
         }
     }
 }

@@ -5,6 +5,6 @@ pluginManagement {
     }
 }
 
-rootProject.name = "paperforktemplate"
+rootProject.name = "removethreadsafetymc"
 
-include("paperforktemplate-API", "paperforktemplate-Server")
+include("removethreadsafetymc-API", "removethreadsafetymc-Server")
